@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +9,68 @@
 <body>
     <div class="container">
 
+        <div class="form">
+
         <h1>Assinatura</h1>
-        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-        <label for="telefone">Telefone</label>
+        
+        <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+        <input type="tel" name="telefone" id="telefone" placeholder="Telefone">
+        <input type="email" name="email" id="email" placeholder="E-mail">
+         <input type="text" name="cpf" id="cpf" placeholder="CPF">
 
-        <p>Tipos de pagamento</p>
-        <input type="radio" id="feminino" name="genero" value="feminino" required>
-        <label for="feminino">Pix</label>
+       </div>
 
-        <input type="radio" id="masculino" name="genero" value="masculino" required>
-        <label for="masculino">Cartão</label>
+        <p id="para-paga">Tipos de pagamentos:</p>
 
-        <input type="radio" id="outros" name="genero" value="outros" required>
-        <label for="outros">Boleto</label>
+        <div class="conteudos">
+    <div class="conteudo-primeiro">
+        <p id="conteudo">
+            Assinar Alura+
+        </p>
+
+        <p id="paragrafo">
+            6x no cartão de
+        </p>
+
+        <p id="conteudo-preco">
+         49,98
+        </p>
+
+    </div>
+
+    <div class="conteudo-segundo">
+    <p id="conteudo">
+            Assinar Alura+
+        </p>
+
+        <p id="paragrafo">
+            A vista por boleto de
+        </p>
+
+        <p id="conteudo-preco">
+         149,98
+        </p>
 
 
     </div>
 
+    <div class="conteudo-terceiro">
+    <p id="conteudo">
+            Assinar Alura+
+        </p>
+
+        <p id="paragrafo">
+            Pix a vista de
+        </p>
+
+        <p id="conteudo-preco">
+         149,98
+        </p>
+
+    </div>
+
+
+    </div>
+</div>
 </body>
 </html>
